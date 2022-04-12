@@ -14,3 +14,7 @@ Use AWS Lambda to extract existing data from AWS RDS and the data in the Filtere
 
 Use AWS Lambda to check for duplicate tweets in both datasets and remove duplicates from the filtered dataset.  Once removed, it would append the filtered data into the AWS RDS.  Both datasets would then be deleted from the S3 Combination Bucket.
 
+
+Data:  1 table: Full_text of Tweet, source url, when created
+
+File size: Around 212k for an hour of tweets, might be around 5M per day of filtered tweets
